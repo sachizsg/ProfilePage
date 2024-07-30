@@ -11,18 +11,21 @@ const Login = () => {
     {
       id: "u001",
       name: "Pasindu",
+      grade: 6,
       projectResult: 80,
       paperResult: 95
     },
     {
       id: "u002",
       name: "Sachi",
+      grade: 4,
       projectResult: 70,
       paperResult: 75
     },
     {
       id: "u003",
       name: "Dinu",
+      grade: 7,
       projectResult: 80,
       paperResult: 75
     }

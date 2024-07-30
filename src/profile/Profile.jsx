@@ -43,6 +43,8 @@
                                     <p class="text-muted font-13"><strong>Full Name :</strong> <span class="m-l-15">{user.name}</span></p>
 
                                     <p class="text-muted font-13"><strong>Index Number :</strong> <span class="m-l-15">{user.id}</span></p>
+
+                                    <p class="text-muted font-13"><strong>Grade :</strong> <span class="m-l-15">{user.grade}</span></p>
                                 </div>
                                 
                             </div>
