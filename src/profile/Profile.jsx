@@ -38,6 +38,7 @@
                         
                         <div class="card-box">
                             <h4 class="header-title mt-0">Personal Information</h4>
+                            <br></br>
                             <div class="panel-body">
                                 <div class="text-left">
                                     <p class="text-muted font-14"><strong>Full Name : <br></br></strong> <span class="m-l-15">{user.name}</span></p>
