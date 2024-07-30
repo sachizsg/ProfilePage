@@ -40,11 +40,11 @@
                             <h4 class="header-title mt-0">Personal Information</h4>
                             <div class="panel-body">
                                 <div class="text-left">
-                                    <p class="text-muted font-13"><strong>Full Name :</strong> <span class="m-l-15">{user.name}</span></p>
+                                    <p class="text-muted font-14"><strong>Full Name : <br></br></strong> <span class="m-l-15">{user.name}</span></p>
 
-                                    <p class="text-muted font-13"><strong>Index Number :</strong> <span class="m-l-15">{user.id}</span></p>
+                                    <p class="text-muted font-14"><strong>Index Number :<br></br></strong> <span class="m-l-15">{user.id}</span></p>
 
-                                    <p class="text-muted font-13"><strong>Grade :</strong> <span class="m-l-15">{user.grade}</span></p>
+                                    
                                 </div>
                                 
                             </div>
@@ -66,7 +66,13 @@
                             <div class="col-sm-4">
                                 <div class="card-box tilebox-one"><i class="icon-layers float-right text-muted"></i>
                                     <h6 class="text-muted text-uppercase mt-0">Total Result</h6>
-                                    <h2 class="" data-plugin="counterup">{user.projectResult+user.paperResult}</h2></div>
+                                    <h2 class="" data-plugin="counterup">{user.totalResult}</h2></div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-box tilebox-one"><i class="icon-layers float-right text-muted"></i>
+                                    <h6 class="text-muted text-uppercase mt-0">Grade</h6>
+                                    <h2 class="" data-plugin="counterup">{user.grade}</h2></div>
                             </div>
                         
                             

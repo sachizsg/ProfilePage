@@ -9,25 +9,28 @@ const Login = () => {
 
   const users = [
     {
-      id: "u001",
-      name: "Pasindu",
-      grade: "A",
-      projectResult: 80,
-      paperResult: 95
+      id: "200315711241",
+      name: "W.A.A.T.Dilshan Perera",
+      grade: "B+",
+      projectResult: 71,
+      paperResult: 60,
+      totalResult: 68
     },
     {
       id: "u002",
       name: "Sachi",
       grade: "A",
       projectResult: 70,
-      paperResult: 75
+      paperResult: 75,
+      totalResult: 87
     },
     {
       id: "u003",
       name: "Dinu",
       grade: "A",
       projectResult: 80,
-      paperResult: 75
+      paperResult: 75,
+      totalResult: 87
     }
   ];
 
