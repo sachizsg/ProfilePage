@@ -14,12 +14,35 @@
     object-fit: cover;
   }
   
-  
-  
   .cardbody-color{
     background-color: #ebf2fa;
   }
   
   a{
     text-decoration: none;
+  }
+
+  .logo{
+    height: 150px;
+    width: 150px;
+  }
+
+  .header-logo{
+    display: flex;
+    margin-top: auto;
+    
+  }
+
+  .logo-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .profile-card{
+    justify-content: center;
+  }
+
+  .logo-card{
+    padding-right: 100px;
   }

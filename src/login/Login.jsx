@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './login.css';
+import images from '../assets/profile.png';
+import national from '../assets/national.jpg';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -342,13 +344,30 @@ const Login = () => {
 
   return (
     <>
-      <div className="row">
+
+    <div className='row logo-card'>
+        <div className='header-logo'>
+          <div className='logo-container'>
+              <img className='logo' src={national} />
+       
+          </div>
+        
+            <div>
+              <h2 className='text-center text-dark mt-3'>National Productivity Secretariat</h2>
+              <h4>Divisional Secretariat Panadura</h4>
+              <h5>Basic Certificate Course In Productivity and Innovation 2024</h5> 
+            </div>
+
+        </div>
+      </div>
+
+
+      <div className="row profile-card">
         <div className="">
-          <h2 className="text-center text-dark mt-5">Login Form</h2>
-          <div className="card my-5">
+          <div className="card my-3">
             <form className="card-body cardbody-color p-lg-6" onSubmit={handleSubmit}>
               <div className="text-center">
-                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                <img src={images} className="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
                   width="200px" alt="profile" />
               </div>
               <div className="mb-3">
